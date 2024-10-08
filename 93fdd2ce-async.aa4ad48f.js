@@ -1,0 +1,22 @@
+(("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd=("undefined"!=typeof globalThis?globalThis:self).makoChunk_antd||[]).push([["93fdd2ce"],{"338c2374":function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return i;}});var a=n("777fffbe"),t=n("f19d2b93"),s=n("5b220c3d"),r=a._(n("7d7b69c4"));let o={scale:1.02,max:8,speed:1500,glare:!0,"max-glare":.8};var i=({options:e,...l})=>{let n=(0,s.useRef)(null);return(0,s.useEffect)(()=>(n.current&&r.default.init(n.current,{...o,...e}),()=>{var e;null===(e=n.current)||void 0===e||e.vanillaTilt.destroy();}),[]),(0,t.jsx)("div",{ref:n,...l});};},"93fdd2ce":function(e,l,n){"use strict";n.d(l,"__esModule",{value:!0}),n.d(l,"default",{enumerable:!0,get:function(){return g;}});var a=n("777fffbe"),t=n("f19d2b93"),s=n("e22febe0"),r=n("a9d1a279"),o=n("3835a2b7"),i=a._(n("338c2374"));let{_InternalPanelDoNotUseOrYouWillBeFired:d}=r.Modal,{_InternalPanelDoNotUseOrYouWillBeFired:c}=r.Tooltip,{_InternalPanelDoNotUseOrYouWillBeFired:p}=r.message,u={ko:{range:"Set Range",text:"Ant Design 5.0 use CSS-in-JS technology to provide dynamic & mix theme ability. And which use component level CSS-in-JS solution get your application a better performance.",infoText:"Info Text",dropdown:"Dropdown",finished:"Finished",inProgress:"In Progress",waiting:"Waiting",option:"Option",apple:"Apple",banana:"Banana",orange:"Orange",watermelon:"Watermelon",primary:"Primary",danger:"Danger",default:"Default",dashed:"Dashed",icon:"Icon",hello:"Hello, Ant Design!",release:"Ant Design 5.0 is released!"}},x=(0,o.createStyles)(({token:e,css:l})=>{let n=e.padding;return{holder:l`
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      row-gap: ${n}px;
+      opacity: 0.8;
+    `,flex:l`
+      display: flex;
+      flex-wrap: nowrap;
+      column-gap: ${n}px;
+    `,ptg_20:l`
+      flex: 0 1 20%;
+    `,ptg_none:l`
+      flex: none;
+    `,block:l`
+      background-color: ${e.colorBgContainer};
+      padding: ${e.paddingXS}px ${e.paddingSM}px;
+      border-radius: ${e.borderRadius}px;
+      border: 1px solid ${e.colorBorder};
+    `,noMargin:l`
+      margin: 0;
+    `};});var g=()=>{let e=u.ko,{styles:l}=x();return(0,t.jsxs)(i.default,{options:{max:20,glare:!0,scale:1},className:l.holder,children:[(0,t.jsx)(d,{title:"Ant Design 5.0",width:"100%",children:e.text}),(0,t.jsx)(r.Alert,{message:e.infoText,type:"info"}),(0,t.jsxs)("div",{className:l.flex,children:[(0,t.jsx)(r.ColorPicker,{style:{flex:"none"}}),(0,t.jsx)("div",{style:{flex:"none"},children:(0,t.jsx)(r.Dropdown.Button,{menu:{items:[,,,,,].fill(null).map((l,n)=>({key:`opt${n}`,label:`${e.option} ${n}`}))},children:e.dropdown})}),(0,t.jsx)(r.Select,{style:{flex:"auto"},mode:"multiple",maxTagCount:"responsive",defaultValue:[{value:"apple"},{value:"banana"}],options:[{value:"apple",label:e.apple},{value:"banana",label:e.banana},{value:"orange",label:e.orange},{value:"watermelon",label:e.watermelon}]}),(0,t.jsx)(r.Input,{style:{flex:"none",width:120}})]}),(0,t.jsx)(r.Progress,{style:{margin:0},percent:100,strokeColor:{"0%":"#108ee9","100%":"#87d068"}}),(0,t.jsx)(r.Progress,{style:{margin:0},percent:33,status:"exception"}),(0,t.jsx)(r.Steps,{current:1,items:[{title:e.finished},{title:e.inProgress},{title:e.waiting}]}),(0,t.jsx)("div",{className:l.block,children:(0,t.jsx)(r.Slider,{style:{marginInline:20},range:!0,marks:{0:"0\xb0C",26:"26\xb0C",37:"37\xb0C",100:{style:{color:"#f50"},label:(0,t.jsx)("strong",{children:"100\xb0C"})}},defaultValue:[26,37]})}),(0,t.jsxs)("div",{className:l.flex,children:[(0,t.jsx)(r.Button,{className:l.ptg_20,type:"primary",children:e.primary}),(0,t.jsx)(r.Button,{className:l.ptg_20,type:"primary",danger:!0,children:e.danger}),(0,t.jsx)(r.Button,{className:l.ptg_20,children:e.default}),(0,t.jsx)(r.Button,{className:l.ptg_20,type:"dashed",children:e.dashed}),(0,t.jsx)(r.Button,{className:l.ptg_20,icon:(0,t.jsx)(s.AntDesignOutlined,{}),children:e.icon})]}),(0,t.jsx)("div",{className:l.block,children:(0,t.jsxs)("div",{className:l.flex,children:[(0,t.jsx)(r.Switch,{className:l.ptg_none,defaultChecked:!0,checkedChildren:(0,t.jsx)(s.CheckOutlined,{}),unCheckedChildren:(0,t.jsx)(s.CloseOutlined,{})}),(0,t.jsx)(r.Checkbox.Group,{className:l.ptg_none,options:[e.apple,e.banana,e.orange],defaultValue:[e.apple]})]})}),(0,t.jsx)("div",{children:(0,t.jsx)(p,{content:e.release,type:"success"})}),(0,t.jsx)(c,{title:e.hello,placement:"topLeft",className:l.noMargin}),(0,t.jsx)(r.Alert,{message:"Ant Design love you!",type:"success"})]});};}}]);
